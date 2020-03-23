@@ -8,13 +8,17 @@ import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
 import { TestComponent } from './test.component';
 import { SearchingButtonComponent } from './searching-button.component';
+import { InputHijoComponent } from './input-hijo/input-hijo.component';
+import { InputpadreComponent } from './inputpadre/inputpadre.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
     TestComponent,
-    SearchingButtonComponent
+    SearchingButtonComponent,
+    InputHijoComponent,
+    InputpadreComponent
   ],
   imports: [
     BrowserModule,

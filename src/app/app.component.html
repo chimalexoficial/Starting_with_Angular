@@ -1,4 +1,4 @@
-<p class="display-2">{{title}}</p>
+<!-- <p class="display-2">{{title}}</p>
 
 <a name="" id="" class="btn btn-primary" href="#" role="button">Boton Rojo Cambiando Variables</a>
 <app-user></app-user>
@@ -6,5 +6,13 @@
 <app-user></app-user>
 <app-test></app-test>
 
-<app-searching-button></app-searching-button>
+<app-searching-button></app-searching-button> -->
+<h1>Componente padre</h1>
+
+<div class="mt-3" *ngFor="let usr of userList">
+    <app-user [user]="usr"></app-user>
+</div>
+
+<app-inputpadre></app-inputpadre>
+<app-input-hijo></app-input-hijo>
 
